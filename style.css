@@ -15,15 +15,19 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
 }
 
 .logo{
     color: white;
     font-size: 28px;
     font-weight: bold;
+}
+
+.nav-link{
+    list-style: none;
+    display: flex;
+    gap: 25px;
 }
 
 .nav-link li a{
